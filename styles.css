@@ -34,6 +34,14 @@ body {
   color: var(--color-dark-blue);
   font-size: 1.375rem;
   font-weight: 900;
-  line-height: 1.318181;
+  line-height: 1.3232;
   margin-bottom: 1rem;
+}
+
+.order-summary__description {
+  color: var(--color-desaturated-blue);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 1.6667;
+  margin: 1rem 0.5rem 1.5rem;
 }
