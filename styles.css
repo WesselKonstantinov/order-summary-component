@@ -17,6 +17,11 @@ body {
   align-items: center;
 }
 
+a:focus-visible {
+  outline: 0.2rem dotted var(--color-bright-blue);
+  outline-offset: 0.125rem;
+}
+
 /* || Order summary component styles */
 
 .order-summary {
