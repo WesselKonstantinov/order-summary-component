@@ -23,6 +23,7 @@ body {
   border-radius: 1.25rem;
   overflow: hidden;
   text-align: center;
+  margin: 1rem;
 }
 
 .order-summary__body {
