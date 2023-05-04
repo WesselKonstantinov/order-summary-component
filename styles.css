@@ -8,10 +8,15 @@
   --color-light-purple: hsl(245, 83%, 68%);
   --color-white: hsl(0, 0%, 100%);
   --font: "Red Hat Display", sans-serif;
+  --base-line-height: 1.323;
 }
 
 body {
   font-family: var(--font);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: var(--base-line-height);
+  color: var(--color-desaturated-blue);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,14 +46,10 @@ a:focus-visible {
   color: var(--color-dark-blue);
   font-size: 1.375rem;
   font-weight: 900;
-  line-height: 1.3232;
   margin-bottom: 1rem;
 }
 
 .order-summary__description {
-  color: var(--color-desaturated-blue);
-  font-size: 0.9375rem;
-  font-weight: 500;
   line-height: 1.6667;
   margin: 1rem 0.5rem 1.5rem;
 }
@@ -62,18 +63,12 @@ a:focus-visible {
   align-items: center;
   gap: 1.25rem;
   font-size: 0.875rem;
-  line-height: 1.32286;
 }
 
 .order-plan__type {
   color: var(--color-dark-blue);
   font-weight: 900;
   font-size: inherit;
-}
-
-.order-plan__price {
-  color: var(--color-desaturated-blue);
-  font-weight: 500;
 }
 
 .order-plan__link {
@@ -90,10 +85,8 @@ a:focus-visible {
 
 .order-summary__button-link {
   text-decoration: none;
-  color: var(--color-desaturated-blue);
-  font-size: 0.9375rem;
+  color: inherit;
   font-weight: 900;
-  line-height: 1.32333;
   transition: all 0.4s ease-out 0s;
 }
 
