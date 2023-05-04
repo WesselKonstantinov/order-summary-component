@@ -29,3 +29,11 @@ body {
 .order-summary__body {
   padding: 2rem 1.5rem;
 }
+
+.order-summary__title {
+  color: var(--color-dark-blue);
+  font-size: 1.375rem;
+  font-weight: 900;
+  line-height: 1.318181;
+  margin-bottom: 1rem;
+}
