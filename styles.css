@@ -5,6 +5,7 @@
   --color-very-pale-blue: hsl(225, 100%, 98%);
   --color-desaturated-blue: hsl(224, 23%, 55%);
   --color-dark-blue: hsl(223, 47%, 23%);
+  --color-light-purple: hsl(245, 83%, 68%);
   --font: "Red Hat Display", sans-serif;
 }
 
@@ -44,4 +45,39 @@ body {
   font-weight: 500;
   line-height: 1.6667;
   margin: 1rem 0.5rem 1.5rem;
+}
+
+.order-plan {
+  background-color: var(--color-very-pale-blue);
+  border-radius: 0.6875rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  font-size: 0.875rem;
+  line-height: 1.32286;
+}
+
+.order-plan__type {
+  color: var(--color-dark-blue);
+  font-weight: 900;
+  font-size: inherit;
+}
+
+.order-plan__price {
+  color: var(--color-desaturated-blue);
+  font-weight: 500;
+}
+
+.order-plan__link {
+  color: var(--color-bright-blue);
+  font-weight: 700;
+  font-size: 0.8125rem;
+  margin-left: auto;
+}
+
+.order-plan__link:hover {
+  color: var(--color-light-purple);
+  text-decoration: none;
 }
