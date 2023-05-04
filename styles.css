@@ -14,3 +14,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* || Order summary component styles */
+
+.order-summary {
+  max-width: 20.4375rem;
+  box-shadow: 0 0.25rem 0.25rem rgb(0 0 0 / 0.25);
+  border-radius: 1.25rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+.order-summary__body {
+  padding: 2rem 1.5rem;
+}
