@@ -6,6 +6,7 @@
   --color-desaturated-blue: hsl(224, 23%, 55%);
   --color-dark-blue: hsl(223, 47%, 23%);
   --color-light-purple: hsl(245, 83%, 68%);
+  --color-white: hsl(0, 0%, 100%);
   --font: "Red Hat Display", sans-serif;
 }
 
@@ -80,4 +81,31 @@ body {
 .order-plan__link:hover {
   color: var(--color-light-purple);
   text-decoration: none;
+}
+
+.order-summary__button-link {
+  text-decoration: none;
+  color: var(--color-desaturated-blue);
+  font-size: 0.9375rem;
+  font-weight: 900;
+  line-height: 1.32333;
+  transition: all 0.4s ease-out 0s;
+}
+
+.order-summary__button-link--primary {
+  color: var(--color-white);
+  background-color: var(--color-bright-blue);
+  box-shadow: 0 1.25rem 1.25rem rgb(56 42 225 / 0.19);
+  display: block;
+  border-radius: 0.6875rem;
+  padding: 1em;
+  margin-bottom: 1.5rem;
+}
+
+.order-summary__button-link--primary:hover {
+  background-color: var(--color-light-purple);
+}
+
+.order-summary__button-link--secondary:hover {
+  color: var(--color-dark-blue);
 }
