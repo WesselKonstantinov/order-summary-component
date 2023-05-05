@@ -20,6 +20,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: no-repeat url("images/pattern-background-mobile.svg") left -8.2381rem
+    top 0 / 39.954375rem 12.125rem var(--color-pale-blue);
 }
 
 a:focus-visible {
@@ -110,9 +112,12 @@ a:focus-visible {
   color: var(--color-dark-blue);
 }
 
-@media (min-width: 37.5rem) {
+@media (min-width: 31.8125rem) {
   body {
     font-size: 1rem;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-size: 100%;
+    background-position: left 0 top 0;
   }
 
   .order-summary {
