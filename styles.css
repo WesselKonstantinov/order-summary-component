@@ -32,6 +32,7 @@ a:focus-visible {
 .order-summary {
   max-width: 20.4375rem;
   box-shadow: 0 0.25rem 0.25rem rgb(0 0 0 / 0.25);
+  background-color: var(--color-white);
   border-radius: 1.25rem;
   overflow: hidden;
   text-align: center;
@@ -106,4 +107,15 @@ a:focus-visible {
 
 .order-summary__button-link--secondary:hover {
   color: var(--color-dark-blue);
+}
+
+@media (min-width: 37.5rem) {
+  .order-summary {
+    max-width: 28.125rem;
+    box-shadow: 0 2.5rem 2.5rem -1.25rem rgb(13 48 189 / 0.15);
+  }
+
+  .order-summary__body {
+    padding: 2.8125rem 3rem 3rem;
+  }
 }
